@@ -21,8 +21,8 @@
   echo $cust_email, $cust_name, $cust_phoneno, $total_price;
   $rmx100=($total_price * 100);
   $post_data = array(
-      'userSecretKey'=> '5vuufkrn-tms0-81xj-se51-a40tqkif07js',
-      'categoryCode'=> '3fzz5we4',
+      'userSecretKey'=> '',
+      'categoryCode'=> '',
       'billName'=> 'D Perantis Online Store',
       'billDescription'=> 'Gadgets Worth: RM'.$total_price ,
       'billPriceSetting'=>1,
